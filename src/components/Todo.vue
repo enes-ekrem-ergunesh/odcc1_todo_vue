@@ -1,6 +1,5 @@
 <template>
   <v-container class="fill-height">
-    <v-btn>Hello</v-btn>
     <v-row class="fill-height justify-center">
       <v-col class="" :cols="12" sm="6" lg="5" xl="3" style="min-width: 450px;">
         <TodoListContainer :msg="childMsg" />
