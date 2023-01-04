@@ -1,4 +1,6 @@
-# base
+# ODDC1 - Todo App
+
+In this One Day Coding Challenge, we made a todo app to learn and practice Vue.js, Typescript and Vuetify.
 
 ## Project setup
 
