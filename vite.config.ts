@@ -40,25 +40,25 @@ export default defineConfig({
   },
 })
 
-// Firebase
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
+// // Firebase
+// // Import the functions you need from the SDKs you need
+// import { initializeApp } from "firebase/app";
+// import { getAnalytics } from "firebase/analytics";
+// // TODO: Add SDKs for Firebase products that you want to use
+// // https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyCm9xw3yoY3XcHv17Cx5Kd1VDDyQY3jcf4",
-  authDomain: "oddc1-todo-vue.firebaseapp.com",
-  projectId: "oddc1-todo-vue",
-  storageBucket: "oddc1-todo-vue.appspot.com",
-  messagingSenderId: "949906894676",
-  appId: "1:949906894676:web:1e3dc3c5e339abd1c062c1",
-  measurementId: "G-LCTTRFKEKC"
-};
+// // Your web app's Firebase configuration
+// // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+// const firebaseConfig = {
+//   apiKey: "AIzaSyCm9xw3yoY3XcHv17Cx5Kd1VDDyQY3jcf4",
+//   authDomain: "oddc1-todo-vue.firebaseapp.com",
+//   projectId: "oddc1-todo-vue",
+//   storageBucket: "oddc1-todo-vue.appspot.com",
+//   messagingSenderId: "949906894676",
+//   appId: "1:949906894676:web:1e3dc3c5e339abd1c062c1",
+//   measurementId: "G-LCTTRFKEKC"
+// };
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+// // Initialize Firebase
+// const app = initializeApp(firebaseConfig);
+// const analytics = getAnalytics(app);
