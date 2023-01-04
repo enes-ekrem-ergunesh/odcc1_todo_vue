@@ -36,7 +36,7 @@ export default defineConfig({
     ],
   },
   server: {
-    port: process.env.PORT | 3000,
+    port: parseInt(process.env.PORT) | 3000,
   },
 })
 
